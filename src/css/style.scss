@@ -188,6 +188,7 @@
 }
 
 .box_text {
+    margin-top: 8px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -205,5 +206,63 @@
 
         color: #979797;
 
+    }
+}
+
+.case {
+    &_name {
+        margin-bottom: 12px;
+        margin-top: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+        color: #161414;
+    }
+    &_location {
+        margin-right: 175px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #979797;
+    }
+    &_under {
+        display: flex;
+        margin-right: 129px;
+    }
+    &_locationimg {
+        margin-right: 4px;
+    }
+}
+
+.hotels {
+    &_cases {
+        display: flex;
+        flex-direction: row;
+    }
+    &_header {
+        margin-left: 30px;
+        margin-bottom: 64px;
+        margin-top: 129px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        /* identical to box height */
+
+
+        color: #161414;
     }
 }

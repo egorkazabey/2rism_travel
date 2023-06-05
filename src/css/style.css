@@ -170,6 +170,7 @@
 }
 
 .box_text {
+  margin-top: 8px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -185,4 +186,53 @@
   line-height: 20px;
   /* identical to box height */
   color: #979797;
+}
+
+.case_name {
+  margin-bottom: 12px;
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #161414;
+}
+.case_location {
+  margin-right: 175px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #979797;
+}
+.case_under {
+  display: flex;
+  margin-right: 129px;
+}
+.case_locationimg {
+  margin-right: 4px;
+}
+
+.hotels_cases {
+  display: flex;
+  flex-direction: row;
+}
+.hotels_header {
+  margin-left: 30px;
+  margin-bottom: 64px;
+  margin-top: 129px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+  color: #161414;
 }/*# sourceMappingURL=style.css.map */
