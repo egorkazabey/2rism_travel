@@ -55,18 +55,25 @@
   display: flex;
 }
 .nav_logo {
+  cursor: pointer;
   display: flex;
 }
 .nav_links {
   display: flex;
 }
 .nav_profile {
+  cursor: pointer;
   display: flex;
 }
 
 .links_ul {
   gap: 54px;
   display: flex;
+}
+.links_ul :hover {
+  opacity: 1;
+  color: white;
+  transition: 0.8s;
 }
 
 .links_li {
@@ -80,6 +87,7 @@
   color: #FFFFFF;
   opacity: 0.7;
   display: flex;
+  cursor: pointer;
 }
 
 .profile_text {
@@ -159,11 +167,15 @@
   /* identical to box height */
   color: #161414;
 }
+.destinations_box {
+  width: 450px;
+}
 .destinations_boxes {
+  width: 1440px;
+  padding-left: 30px;
   justify-content: center;
   margin-top: 64px;
   align-items: flex-start;
-  padding: 0px;
   gap: 32px;
   display: flex;
   flex-direction: row;
@@ -177,8 +189,10 @@
   font-size: 16px;
   line-height: 24px;
   color: #161414;
+  cursor: pointer;
 }
 .box_text span {
+  cursor: default;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -189,6 +203,7 @@
 }
 
 .case_name {
+  cursor: pointer;
   margin-bottom: 12px;
   margin-top: 10px;
   font-family: "Poppins";
@@ -220,9 +235,15 @@
   margin-right: 4px;
 }
 
+.hotels_case {
+  white-space: nowrap;
+  width: 370px;
+}
 .hotels_cases {
+  padding-left: 30px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .hotels_header {
   margin-left: 30px;
@@ -235,4 +256,38 @@
   line-height: 48px;
   /* identical to box height */
   color: #161414;
+}
+
+.view_all {
+  cursor: pointer;
+  gap: 4px;
+  margin-top: 120px;
+  width: 105px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  background: #F6F4FF;
+  border-radius: 12px;
+  display: flex;
+  white-space: nowrap;
+}
+.view_all :hover {
+  text-decoration: underline;
+  transition: 10s;
+}
+
+.view_text {
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #5243C2;
+}
+
+.hotels_headers {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@
     margin: 0 auto;
 }
 
+
 .header {
     background: url('../img/background1.jpg') center (center/cover) no-repeat;
     min-height: 800px;
@@ -55,12 +56,14 @@
     padding-top: 31px;
     display: flex;
     &_logo {
+        cursor: pointer;
         display: flex;
     }
     &_links {
         display: flex;
     }
     &_profile {
+        cursor: pointer;
         display: flex;
     }
 }
@@ -68,6 +71,11 @@
 .links_ul {
     gap: 54px;
     display: flex;
+    :hover {
+        opacity: 1;
+        color: white;
+        transition: 0.8s;
+    }
 }
 
 .links_li {
@@ -83,6 +91,7 @@
     color: #FFFFFF;
     opacity: 0.7;
     display: flex;
+    cursor: pointer;
 }
 
 .profile_text {
@@ -176,11 +185,15 @@
 
         color: #161414;
     }
+    &_box {
+        width: 450px;
+    }
     &_boxes {
+        width: 1440px;
+        padding-left: 30px;
         justify-content: center;
         margin-top: 64px;
         align-items: flex-start;
-        padding: 0px;
         gap: 32px;
         display: flex;
         flex-direction: row;
@@ -195,7 +208,9 @@
     font-size: 16px;
     line-height: 24px;
     color: #161414;
+    cursor: pointer;
     span {
+        cursor: default;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -211,6 +226,7 @@
 
 .case {
     &_name {
+        cursor: pointer;
         margin-bottom: 12px;
         margin-top: 10px;
         font-family: 'Poppins';
@@ -247,9 +263,15 @@
 }
 
 .hotels {
+    &_case {
+        white-space: nowrap;
+        width: 370px;
+    }
     &_cases {
+        padding-left: 30px;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     &_header {
         margin-left: 30px;
@@ -265,4 +287,40 @@
 
         color: #161414;
     }
+}
+
+.view_all {
+    cursor: pointer;
+    gap: 4px;
+    margin-top: 120px;
+    width: 105px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    background: #F6F4FF;
+    border-radius: 12px;
+    display: flex;
+    white-space: nowrap;
+    :hover {
+        text-decoration: underline;
+        transition: 10s;
+    }
+}
+
+.view_text {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #5243C2;
+}
+
+.hotels_headers {
+    display: flex;
+    justify-content: space-between;
 }
