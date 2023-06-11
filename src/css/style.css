@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("../css/reset.css");
 .container {
   width: 1440px;
   margin: 0 auto;
   padding-left: 30px;
+}
+
+.none {
+  display: none;
 }
 
 .header {
@@ -546,4 +551,40 @@ ul, li {
 
 .list_header {
   cursor: default;
+}
+
+@media (max-width: 1139px) {
+  .media-2box {
+    display: flex;
+  }
+  .container {
+    padding-left: 0;
+    max-width: 1000px;
+  }
+  .links_ul {
+    gap: 30px;
+    margin-top: 15px;
+  }
+  .header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .nav {
+    gap: 20px;
+    justify-content: center;
+  }
+  .header_row {
+    display: flex;
+    width: 900px;
+  }
+  .destinations_boxes {
+    flex-direction: column;
+  }
+  .case-2box {
+    display: block;
+  }
+}
+.hamburger-menu {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
